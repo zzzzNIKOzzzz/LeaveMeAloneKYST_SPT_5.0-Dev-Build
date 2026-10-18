@@ -28,7 +28,7 @@ namespace LeaveMeAloneKYST
             AddComponent<LeaveMeAloneKYSTScript>();
 
             // Патчим GameWorld.OnGameStarted постфиксом.
-            var harmony = new Harmony("com.hazelify.leavemealonekyst");
+            var harmony = new Harmony("com.zzzNIKOzzz.leavemealonekyst");
             harmony.PatchAll(typeof(GameWorldOnGameStartedPatch).Assembly);
 
             Log.LogInfo("LeaveMeAloneKYST: патч GameWorld.OnGameStarted применён. ЧТД!");
