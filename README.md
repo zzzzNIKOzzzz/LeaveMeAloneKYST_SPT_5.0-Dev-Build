@@ -33,7 +33,7 @@ Standalone-порт мода **BushWhacker** (автор оригинала — 
 
 ## Конфигурация
 
-Файл конфига: `BepInEx/config/com.hazelify.leavemealonekyst.cfg`
+Файл конфига: `BepInEx/config/com.zzzNIKOzzz.leavemealonekyst.cfg`
 
 ```ini
 [General]
